@@ -629,10 +629,12 @@ a {
   background-color: var(--accent-color);
 }
 
+.follow {
+margin-left: auto;
+}
+
 .follow-strong {
   display: block;
-  margin-left: 105px;
-  width: 570px;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -657,7 +659,6 @@ a {
 
 .follow-input {
   padding: 15px 0px 15px 16px;
-  margin-left: 105px;
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -767,6 +768,11 @@ a {
   cursor: pointer;
 }
 
+.modal-close-icon:hover,
+.modal-close-icon:focus {
+  fill: var(--accent-color);
+}
+
 .is-hidden {
   opacity: 0;
   visibility: hidden;
@@ -809,6 +815,7 @@ a {
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
+  margin: 0;
   margin-bottom: 12px;
 }
 
@@ -824,6 +831,7 @@ a {
   color: var(--paragraph-text-color);
   display: block;
   margin-bottom: 4px;
+  margin-top: 10px;
 }
 
 .modal-comment {
@@ -900,14 +908,12 @@ a {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: var(--accent-color);
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 .form-button {
   display: block;
-  padding: 10px 35px;
-  min-width: 200px;
-  height: 50px;
+  padding: 10px 55px;
   margin: 0 auto;
   margin-bottom: 0px;
   margin-top: 30px;
